@@ -1,0 +1,11 @@
+ int a, b;
+ print("Input two integer numbers:");
+ a=read();
+ b=read();
+ while(!(a==b))
+ {
+ if(a>b) {a=a-b;}
+ else {b=b-a;}
+ }
+ print("The greatest common divisor:", a, "\n");
+ 
